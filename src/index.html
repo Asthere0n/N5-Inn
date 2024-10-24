@@ -15,10 +15,18 @@
                 <h1>N°5 Inn</h1>
             </a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contact</a></li>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>History</li>
+                </a>
+                <a href="#">
+                    <li>Menu</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
             </ul>
             <div>
                 <button id="buttonCTA">Reservation</button>
@@ -32,66 +40,108 @@
             </div>
         </section>
 
-        <section id="About">
-            <article>
-                <h3>Tasteful service</h3>
-                <p>
-                    Alison is your host and will make sure your visit is the best it can be whether it be for a drink in
-                    the
-                    bar, food and drink in the cosy snug, great food in the restaurant or just chilling in our new beer
-                    garden.
-                </p>
+
+
+        <section id="about">
+            <h2 class="divider"><span>Why coming to </span>N°5 Inn</h2>
+            <article class="infoDisplay">
+                <div>
+                    <h3>Tasteful service</h3>
+                    <p>
+                        Alison is your host and will make sure your visit is the best it can be whether it be for a
+                        drink in
+                        the
+                        bar, food and drink in the cosy snug, great food in the restaurant or just chilling in our new
+                        beer
+                        garden.
+                    </p>
+                </div>
+                <div class="imgInfo"
+                    style="background-image: url(https://the-hospitalityboss.com/wp-content/uploads/2022/03/what-waiters-really-think-thegem-blog-default.jpg);">
+                </div>
+
+
             </article>
 
-            <article>
-                <h3>Local flavours</h3>
-                <p>
-                    The kitchen is overseen by Chef David who works closely with local suppliers to bring you the best
-                    in
-                    pub favourites (have a look at the restaurant page for some tasty pics).
-                </p>
+            <article class="infoDisplay">
+                <div class="imgInfo"
+                    style="background-image: url(https://api.campbellsmeat.com/wp-content/uploads/2022/02/1645097449ScottishHeritageCattleBreedsandScotchBeef-1.png);">
+                </div>
+                <div>
+                    <h3>Local flavours</h3>
+                    <p>
+                        The kitchen is overseen by Chef David who works closely with local suppliers to bring you the
+                        best
+                        in
+                        pub favourites (have a look at the restaurant page for some tasty pics).
+                    </p>
+                </div>
             </article>
 
-            <article>
-                <h3>Live traditional performances</h3>
-                <p>
-                    We also host a night of traditional music in the bar on the 1st Tuesday of each month. Why not pop
-                    along
-                    for some great foot tapping tunes.
-                </p>
+            <article class="infoDisplay">
+                <div>
+                    <h3>Live traditional performances</h3>
+                    <p>
+                        We also host a night of traditional music in the bar on the 1st Tuesday of each month. Why not
+                        pop
+                        along
+                        for some great foot tapping tunes.
+                    </p>
+                </div>
+                <div class="imgInfo"
+                    style="background-image: url(https://www.visitscotland.com/binaries/content/gallery/visitscotland/cms-images/2024/04/09/hen-hoose-barrowland-ballroom.jpg);">
+                </div>
             </article>
         </section>
+
+
+        <section id="Menu"">
+            <div>
+                <h2>Check our menu</h2>
+                <button id="buttonMenu">Download</button>
+            </div>
+            
+
+        </section>
+
+        <h2 class="divider">
+            What <span>customers</span> have to say?
+        </h2>
 
         <section id="Reviews">
-            <article>
-                <div>
-                    <img src="" alt="TripAdvisor Icon">
+
+            <article class="card">
+                <div class="cardIcon">
+                    <div>
+                        <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Tripadvisor-icon.png"
+                            alt="TripAdvisor Icon">
+                    </div>
                     <div id="TripAdvisorScore"></div>
                 </div>
-                <div class="Review">
-                    <span>Hazel B.</span>
-                    <span>Aug 2024</span>
-                    <p>Lovely meal tonight at the number 5. First visit here food lovely staff
-                        friendly. Desert to die for.
-                        Will definitely be back.</p>
-                </div>
+                <span class="cardName">Hazel B.</span>
+                <span class="cardDate">Aug 2024</span>
+                <p class="cardComment">
+                    Lovely meal tonight at the number 5. First visit here food lovely staff
+                    friendly. Desert to die for.
+                    Will definitely be back.
+                </p>
             </article>
 
-            <article>
-                <div>
-                    <img src="" alt="Google Icon">
+            <article class="card">
+                <div class="cardIcon">
+                    <img  alt="Google Icon"
+                    src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-pks9lbdv.png">
                     <div id="GoogleScore"></div>
                 </div>
-                <div class="Review">
-                    <span>Elaine C.</span>
-                    <span>Oct 2024</span>
-                    <p>Best food in the local area. Alison is always the perfect hostess, so warm and welcoming</p>
-                </div>
-            </article>
-        </section>
 
-        <section id="Menu">
-            <button>Check the menu</button>
+                <span class="cardName">Elaine C.</span>
+                <span class="cardDate">Oct 2024</span>
+                <p class="cardComment">
+                    Best food in the local area. Alison is always the perfect hostess, so warm and
+                    welcoming
+                </p>
+
+            </article>
         </section>
 
         <footer>
@@ -117,7 +167,7 @@
             </div>
             <div id="Location"></div>
             <div id="OpeningHours"></div>
-            <p>Website created by <a href="#">Cristian Sanchez</a> </p>
+            <p>Website created by <a href="https://github.com/Asthere0n">Cristian Sanchez</a> </p>
         </footer>
     </div>
 
